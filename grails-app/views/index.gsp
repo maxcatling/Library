@@ -23,16 +23,6 @@
 				display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
 			}
 
-			#status ul {
-				font-size: 0.9em;
-				list-style-type: none;
-				margin-bottom: 0.6em;
-				padding: 0;
-			}
-
-			#status li {
-				line-height: 1.3;
-			}
 
 			#status h1 {
 				text-transform: uppercase;
@@ -44,11 +34,7 @@
 				margin: 2em 1em 1.25em 18em;
 			}
 
-			h2 {
-				margin-top: 1em;
-				margin-bottom: 0.3em;
-				font-size: 1em;
-			}
+			
 
 			p {
 				line-height: 1.5;
@@ -81,42 +67,14 @@
 		</style>
 	</head>
 	<body>
-		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div id="status" role="complementary">
-			<h1>Application Status</h1>
-			<ul>
-				<li>App version: <g:meta name="app.version"/></li>
-				<li>Grails version: <g:meta name="app.grails.version"/></li>
-				<li>Groovy version: ${GroovySystem.getVersion()}</li>
-				<li>JVM version: ${System.getProperty('java.version')}</li>
-				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
-				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
-				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
-				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
-				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
-			</ul>
-		</div>
-		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+		Lorem ipsum dolor sit amet, at singulis voluptatum intellegebat vis, eu probo vocent tacimates eos, vim ei suas iudico utroque. Blandit copiosae an vel. Iudico doming salutatus cu cum. In sit virtute reprimique. Quidam impetus sed an, legimus referrentur est no, officiis volutpat repudiare duo ne.
 
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
-			</div>
-		</div>
+No sea mundi voluptua instructior. Mea option docendi in, id meliore graecis torquatos usu. Vix commodo percipit id, cu omnesque nominati eloquentiam eum, ea eam aeque philosophia. At duo alia deleniti, possim laoreet sensibus his cu. Mei fierent erroribus eloquentiam te. Inermis percipit eam ut, omnium audiam ponderum et nam.
+
+Ea modus atomorum imperdiet sed, habemus omittam eam no, singulis nominati consequat id pri. Duo iisque deleniti eu, cu eum scripta sapientem cotidieque. Mel magna latine conclusionemque ad. Ne paulo viderer eos, ei eos ceteros liberavisse, quo quot luptatum id. Meliore maiorum evertitur ei eam. Cu feugiat eruditi gubergren vix, eam dicam minimum adversarium te.
+
+Pri in tamquam ancillae, diam mazim est id. Mutat partiendo adolescens cu duo, munere meliore sea in. Vix cu natum modus, error populo legimus ei sed. Vero homero argumentum pro no, brute detracto corrumpit id nam.
+
+An vim deserunt vituperatoribus. Quodsi accusamus instructior vis no, quo eu justo mazim bonorum. Ne pro ponderum sententiae. Et posse dignissim consetetur mea, sit qualisque splendide ea. Eam ne audiam feugiat platonem, elitr facilisis pertinacia eos at, amet errem intellegat eu est. Usu maiorum electram interesset eu.
 	</body>
 </html>
