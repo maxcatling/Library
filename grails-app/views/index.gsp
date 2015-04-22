@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
+		<title>Welcome to Sheffield Library</title>
 		<style type="text/css" media="screen">
 			#status {
-				background-color: #eee;
-				border: .2em solid #fff;
+				background-color: #2ECCFA;
+				border: .2em solid #000000;
 				margin: 2em 2em 1em;
 				padding: 1em;
 				width: 12em;
