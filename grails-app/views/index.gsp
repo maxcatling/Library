@@ -67,6 +67,10 @@
 		</style>
 	</head>
 	<body>
+#status {
+				background-color: #2ECCFA;
+				border: .2em solid #000000;
+
 		Lorem ipsum dolor sit amet, at singulis voluptatum intellegebat vis, eu probo vocent tacimates eos, vim ei suas iudico utroque. Blandit copiosae an vel. Iudico doming salutatus cu cum. In sit virtute reprimique. Quidam impetus sed an, legimus referrentur est no, officiis volutpat repudiare duo ne.
 
 No sea mundi voluptua instructior. Mea option docendi in, id meliore graecis torquatos usu. Vix commodo percipit id, cu omnesque nominati eloquentiam eum, ea eam aeque philosophia. At duo alia deleniti, possim laoreet sensibus his cu. Mei fierent erroribus eloquentiam te. Inermis percipit eam ut, omnium audiam ponderum et nam.
